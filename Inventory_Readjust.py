@@ -92,7 +92,7 @@ inventory_executed_today = (flags['INVENTORY'] == today_str)
 
 
 try:
-    base_path = r"\\gfa60005\Spotfire\GSS Business Data\03_INVENTORY REPORT"
+    base_path = r"\\server\rute"
     available_folders = [
         f for f in os.listdir(base_path)
         if os.path.isdir(os.path.join(base_path, f))

@@ -25,7 +25,7 @@ The workflow is composed of the following stages:
 The script focuses on balancing inventory according to the following logic:
 
 - It selects data from a historical inventory source located in the network path:
-  \\gfa60005\Spotfire\GSS Business Data\03_INVENTORY REPORT
+  \\server\rute
 - It identifies raw inventory records by material and stock state.
 - It determines which items are eligible to be reassigned.
 - It allocates available stock from the relevant supply category to demand rows using priority rules.
